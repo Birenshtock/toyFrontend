@@ -1,0 +1,22 @@
+header {
+    background-color: green;
+}
+
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logoImg {
+    width: 100px;
+}
+
+.nav-bar>* {
+    margin: rem(5px);
+    font-size: rem(20px);
+}
+
+.nav-bar>*:hover {
+    color: red;
+}
